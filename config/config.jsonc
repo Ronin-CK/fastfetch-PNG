@@ -1,0 +1,146 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "separator": "  ",
+        "color": {
+            "keys": "magenta"
+        },
+        "size": {
+            "ndigits": 0,
+            "maxPrefix": "MB"
+        }
+    },
+    "logo": {
+        "type": "kitty",
+        "height": 26,
+        "padding": {
+            "top": 0,
+            "left": 2
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "color": {
+                "user": "green",
+                "at": "red",
+                "host": "blue"
+            }
+        },
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────────────────────┐"
+        },
+        {
+            "type": "custom",
+            "format": "│ {#1}Hardware Information{#}                            │"
+        },
+        {
+            "type": "custom",
+            "format": "│───────────────────────────────────────────────│"
+        },
+        {
+            "type": "host",
+            "key": "│  PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│  CPU",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│  GPU",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│  Memory",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────────────────────┐"
+        },
+        {
+            "type": "custom",
+            "format": "│ {#1}Software Information{#}                            │"
+        },
+        {
+            "type": "custom",
+            "format": "│───────────────────────────────────────────────│"
+        },
+        {
+            "type": "os",
+            "key": "│  OS",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│  Kernel",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│  Packages",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "│  Shell",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "│  Uptime",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "de",
+            "key": "DE",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "WM",
+            "keyColor": "blue"
+        },
+        {
+            "type": "theme",
+            "key": "Theme",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": "Icons",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminal",
+            "key": "Terminal",
+            "keyColor": "blue"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        }
+    ]
+}
