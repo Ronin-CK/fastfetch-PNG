@@ -9,6 +9,10 @@ Use **any PNG image** as your `fastfetch` logo!
 - **Native Scaling:** Uses `fastfetch`'s native image scaling.
 - **Supports:** PNG, JPG, WEBP.
 
+  [DEMO](https://github.com/user-attachments/assets/25058a27-b8ae-4534-a939-495a5f236504)
+
+  
+
 ## Installation
 
 ```bash
