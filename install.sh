@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# fastfetch-PNG Installer
-# Sets up the random PNG image picker for fastfetch.
-
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
